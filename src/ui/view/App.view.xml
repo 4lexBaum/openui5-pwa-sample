@@ -1,0 +1,34 @@
+<mvc:View
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    controllerName="com.sap.sports.view.App"
+    displayBlock="true"
+    height="100%">
+	<App
+	  id="idApp"
+	  showHeader="true"
+      homeIcon="../../icons/One_light_big.png"
+      backgroundImage="../../icons/One_dark_big.png">
+		<Page
+            title="Sports One PWA"
+            >
+            <customHeader>
+			<Toolbar>
+                <Button
+                    press="handleOpen"
+                    icon="sap-icon://menu2" 
+                    iconFirst="false"/>
+				<ToolbarSpacer />
+                <Title text="Sports One PWA" />
+				<ToolbarSpacer />
+                <Button icon="https://d79i1fxsrar4t.cloudfront.net/assets/img/github-icon.48d0b343.svg" press="onSourceCodePress"/>
+			</Toolbar>
+		</customHeader>
+            <content>
+            </content>
+            <footer>
+            </footer>
+        </Page>
+	</App>
+</mvc:View>

@@ -32,9 +32,19 @@
 	<script src="register-worker.js"></script>
 	<!-- Load openui5 libraries -->
 	<script src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js" 
-		id="sap-ui-bootstrap" data-sap-ui-libs="sap.m" data-sap-ui-preload="async" data-sap-ui-theme="sap_belize_plus"></script>
+			id="sap-ui-bootstrap"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-preload="async"
+			data-sap-ui-theme="sap_belize_plus"
+			data-sap-ui-resourceroots='{
+				"com.sap.sports": "./ui"
+			}'>
+	</script>
 	<!-- Load and run the application -->
 	<script src="todo-app.js"></script>
+
+	<link href="./css/library.css" rel="stylesheet" type="text/css">
+
 </head>
 <body id="body" class="sapUiBody">
 	<div id="splash-screen">

@@ -1,0 +1,11 @@
+{
+    "sap.ui5": {
+        "resources": {
+            "css": [
+                {
+                    "uri": "css/library.css"
+                }
+            ]
+        }
+    }
+}

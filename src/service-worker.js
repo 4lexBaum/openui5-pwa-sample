@@ -4,14 +4,17 @@ const RESOURCES_TO_PRELOAD = [
 	'logo.svg',
 	'register-worker.js',
 	'todo-app.js',
-	'manifest.json'
+	'manifest.json',
+	'ui/view/App.view.xml',
+	'ui/view/App.controller.js',
+	'ui/Component.js'
 ];
 
-/* 
+
    // Note: if you want to preload the UI5 core and mobile libraries by install,
    // uncomment this block of code
 
-	const cdnBase = 'https://openui5.hana.ondemand.com/resources/';
+/* 	const cdnBase = 'https://openui5.hana.ondemand.com/resources/';
 
 	resourcesToCache = resourcesToCache.concat([
 		`${cdnBase}sap-ui-core.js`,
@@ -20,8 +23,8 @@ const RESOURCES_TO_PRELOAD = [
 		`${cdnBase}sap/ui/core/themes/base/fonts/SAP-icons.woff2`,
 		`${cdnBase}sap/m/library-preload.js`,
 		`${cdnBase}sap/m/themes/sap_belize_plus/library.css`
-	]);
-*/
+	]); */
+
 
 // Preload some resources during install
 self.addEventListener('install', function (event) {
