@@ -115,7 +115,7 @@ sap.ui.getCore().attachInit(function todoApp() {
 	});
 
 	var todoPage = new sap.m.Page("todoPage", {
-		title: "UI5 TODO Sample",
+		title: "UI5 PWA",
 		showNavButton: false,
 		showFooter: true,
 		floatingFooter: true,

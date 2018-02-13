@@ -1,5 +1,5 @@
 ---
 applications:
- - name: ui5todo
+ - name: ui5pwa
    memory: 64M
    command: node --use_strict server.js
